@@ -1,5 +1,4 @@
 def partitions(n):
-    '''define a function which returns the number of integer partitions of n'''
     f = [[1] * (n + 1)]
     for i in xrange(1, n + 1):
         f.append([0])
